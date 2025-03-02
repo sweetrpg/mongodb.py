@@ -185,7 +185,7 @@ sweetrpg-model-core==0.0.155
     # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
 tox==4.24.1
     # via -r /home/runner/work/db.py/db.py/requirements/tests.in
-typer==0.15.1
+typer==0.15.2
     # via rstcheck
 typing-extensions==4.12.2
     # via

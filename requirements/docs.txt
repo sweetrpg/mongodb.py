@@ -111,7 +111,7 @@ sweetrpg-common==0.0.1
     # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
-typer==0.15.1
+typer==0.15.2
     # via rstcheck
 typing-extensions==4.12.2
     # via
