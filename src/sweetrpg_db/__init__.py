@@ -7,7 +7,7 @@ Metadata.
 __title__ = "sweetrpg-db"
 __description__ = "SweetRPG database modules"
 __url__ = "https://github.com/sweetrpg/db"
-__version__ = "0.0.17"
+__version__ = "0.0.18"
 __build__ = 0x000007
 __author_email__ = "dm@sweetrpg.com"
 __license__ = "MIT"
