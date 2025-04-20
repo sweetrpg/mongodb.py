@@ -43,7 +43,7 @@ mdurl==0.1.2
     # via markdown-it-py
 mongoengine==0.29.1
     # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
-packaging==24.2
+packaging==25.0
     # via
     #   marshmallow
     #   pallets-sphinx-themes
