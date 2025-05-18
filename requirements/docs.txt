@@ -14,11 +14,11 @@ certifi==2025.4.26
     # via requests
 charset-normalizer==3.4.2
     # via requests
-click==8.2.0
+click==8.1.8
     # via typer
 dnspython==2.7.0
     # via
-    #   -r /home/runner/work/db.py/db.py/requirements/pkg.in
+    #   -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
     #   pymongo
 docutils==0.21.2
     # via
@@ -37,12 +37,12 @@ markupsafe==3.0.2
     # via jinja2
 marshmallow==3.26.1
     # via
-    #   -r /home/runner/work/db.py/db.py/requirements/pkg.in
+    #   -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
     #   sweetrpg-model-core
 mdurl==0.1.2
     # via markdown-it-py
 mongoengine==0.29.1
-    # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
+    # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
 packaging==25.0
     # via
     #   marshmallow
@@ -61,7 +61,7 @@ pygments==2.19.1
     #   sphinx-tabs
 pymongo[srv]==3.13.0
     # via
-    #   -r /home/runner/work/db.py/db.py/requirements/pkg.in
+    #   -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
     #   mongoengine
     #   pymongo
     #   sweetrpg-model-core
@@ -108,10 +108,10 @@ sphinxcontrib-qthelp==2.0.0
 sphinxcontrib-serializinghtml==2.0.0
     # via sphinx
 sweetrpg-common==0.0.1
-    # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
+    # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
 sweetrpg-model-core==0.0.155
-    # via -r /home/runner/work/db.py/db.py/requirements/pkg.in
-typer==0.15.3
+    # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
+typer==0.15.4
     # via rstcheck
 typing-extensions==4.13.2
     # via
