@@ -50,7 +50,7 @@ packaging==25.0
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.11.5
+pydantic==2.11.7
     # via rstcheck-core
 pydantic-core==2.33.2
     # via pydantic
@@ -65,7 +65,7 @@ pymongo[srv]==3.13.0
     #   mongoengine
     #   pymongo
     #   sweetrpg-model-core
-requests==2.32.3
+requests==2.32.4
     # via sphinx
 rich==14.0.0
     # via typer
