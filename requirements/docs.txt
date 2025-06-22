@@ -10,7 +10,7 @@ annotated-types==0.7.0
     # via pydantic
 babel==2.17.0
     # via sphinx
-certifi==2025.4.26
+certifi==2025.6.15
     # via requests
 charset-normalizer==3.4.2
     # via requests
@@ -54,7 +54,7 @@ pydantic==2.11.7
     # via rstcheck-core
 pydantic-core==2.33.2
     # via pydantic
-pygments==2.19.1
+pygments==2.19.2
     # via
     #   rich
     #   sphinx
@@ -121,5 +121,5 @@ typing-extensions==4.14.0
     #   typing-inspection
 typing-inspection==0.4.1
     # via pydantic
-urllib3==2.4.0
+urllib3==2.5.0
     # via requests
