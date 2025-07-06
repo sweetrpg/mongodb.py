@@ -113,7 +113,7 @@ sweetrpg-model-core==0.0.155
     # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
 typer==0.16.0
     # via rstcheck
-typing-extensions==4.14.0
+typing-extensions==4.14.1
     # via
     #   pydantic
     #   pydantic-core
