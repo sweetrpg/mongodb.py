@@ -67,7 +67,7 @@ pymongo[srv]==3.13.0
     #   sweetrpg-model-core
 requests==2.32.4
     # via sphinx
-rich==14.0.0
+rich==14.1.0
     # via typer
 roman-numerals-py==3.1.0
     # via sphinx
