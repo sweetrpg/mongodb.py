@@ -14,7 +14,7 @@ chardet==5.2.0
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.10.0
+coverage[toml]==7.10.1
     # via
     #   coverage-badge
     #   pytest-cov
@@ -24,7 +24,7 @@ distlib==0.4.0
     # via virtualenv
 dnspython==2.7.0
     # via
-    #   -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
+    #   -r requirements/pkg.in
     #   -r requirements/tests.in
     #   pymongo
 filelock==3.18.0
@@ -35,10 +35,10 @@ iniconfig==2.1.0
     # via pytest
 marshmallow==3.26.1
     # via
-    #   -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
+    #   -r requirements/pkg.in
     #   sweetrpg-model-core
 mongoengine==0.29.1
-    # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 packaging==25.0
     # via
     #   marshmallow
@@ -57,7 +57,7 @@ pygments==2.19.2
     # via pytest
 pymongo[srv]==3.13.0
     # via
-    #   -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
+    #   -r requirements/pkg.in
     #   mongoengine
     #   pymongo
     #   sweetrpg-model-core
@@ -78,10 +78,10 @@ pytest-ordering==0.6
 python-dotenv==1.1.1
     # via -r requirements/tests.in
 sweetrpg-common==0.0.1
-    # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
+    # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
-    # via -r /home/runner/work/mongodb.py/mongodb.py/requirements/pkg.in
-tox==4.28.3
+    # via -r requirements/pkg.in
+tox==4.28.4
     # via -r requirements/tests.in
 virtualenv==20.32.0
     # via tox
