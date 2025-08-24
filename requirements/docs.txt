@@ -65,7 +65,7 @@ pymongo[srv]==3.13.0
     #   mongoengine
     #   pymongo
     #   sweetrpg-model-core
-requests==2.32.4
+requests==2.32.5
     # via sphinx
 rich==14.1.0
     # via typer
@@ -111,7 +111,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
-typer==0.16.0
+typer==0.16.1
     # via rstcheck
 typing-extensions==4.14.1
     # via
