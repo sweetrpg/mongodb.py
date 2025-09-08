@@ -101,6 +101,7 @@ platformdirs==4.4.0
 pluggy==1.6.0
     # via
     #   pytest
+    #   pytest-cov
     #   tox
 pydantic==2.11.7
     # via rstcheck-core
@@ -130,7 +131,7 @@ pytest==8.4.2
     #   pytest-cov
     #   pytest-env
     #   pytest-ordering
-pytest-cov==5.0.0
+pytest-cov==6.3.0
     # via -r requirements/tests.in
 pytest-env==1.1.5
     # via -r requirements/tests.in
