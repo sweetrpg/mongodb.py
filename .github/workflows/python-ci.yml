@@ -31,7 +31,7 @@ jobs:
                       os: ubuntu-latest
 
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Get language version
               id: get_lang_version
               run: |
@@ -75,7 +75,7 @@ jobs:
         runs-on: ubuntu-latest
         concurrency: docs
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
             - name: Get language version
               id: get_lang_version
               run: |
@@ -105,7 +105,7 @@ jobs:
             id-token: write
             contents: write
         steps:
-            - uses: actions/checkout@v4
+            - uses: actions/checkout@v5
               with:
                 fetch-depth: 0
             # - name: Build a binary wheel and a source tarball
