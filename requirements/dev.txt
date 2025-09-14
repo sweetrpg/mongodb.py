@@ -102,7 +102,7 @@ pluggy==1.6.0
     # via
     #   pytest
     #   tox
-pydantic==2.11.7
+pydantic==2.11.9
     # via rstcheck-core
 pydantic-core==2.33.2
     # via pydantic
