@@ -10,11 +10,11 @@ annotated-types==0.7.0
     # via pydantic
 babel==2.17.0
     # via sphinx
-certifi==2025.10.5
+certifi==2025.11.12
     # via requests
 charset-normalizer==3.4.4
     # via requests
-click==8.3.0
+click==8.3.1
     # via typer
 dnspython==2.8.0
     # via
@@ -50,9 +50,9 @@ packaging==25.0
     #   sphinx
 pallets-sphinx-themes==2.3.0
     # via -r requirements/docs.in
-pydantic==2.12.3
+pydantic==2.12.4
     # via rstcheck-core
-pydantic-core==2.41.4
+pydantic-core==2.41.5
     # via pydantic
 pygments==2.19.2
     # via
@@ -111,7 +111,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
-typer==0.19.2
+typer==0.20.0
     # via rstcheck
 typing-extensions==4.15.0
     # via
