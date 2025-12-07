@@ -93,7 +93,7 @@ pathspec==0.12.1
     # via black
 pip-tools==7.5.2
     # via -r requirements/dev.in
-platformdirs==4.5.0
+platformdirs==4.5.1
     # via
     #   black
     #   tox
@@ -199,7 +199,7 @@ typing-extensions==4.15.0
     #   typing-inspection
 typing-inspection==0.4.2
     # via pydantic
-urllib3==2.5.0
+urllib3==2.6.0
     # via requests
 virtualenv==20.35.4
     # via tox
