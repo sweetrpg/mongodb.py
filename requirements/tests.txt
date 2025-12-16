@@ -5,9 +5,9 @@
 #    pip-compile requirements/tests.in
 #
 asgiref==3.11.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 blinker==1.9.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 cachetools==6.2.3
     # via tox
 chardet==5.2.0
@@ -19,15 +19,15 @@ coverage[toml]==7.13.0
     #   coverage-badge
     #   pytest-cov
 coverage-badge==1.1.2
-    # via -r requirements/tests.in
+    # via -r tests.in
 distlib==0.4.0
     # via virtualenv
 dnspython==2.8.0
     # via
-    #   -r requirements/pkg.in
-    #   -r requirements/tests.in
+    #   -r pkg.in
+    #   -r tests.in
     #   pymongo
-filelock==3.20.0
+filelock==3.20.1
     # via
     #   tox
     #   virtualenv
@@ -35,10 +35,10 @@ iniconfig==2.3.0
     # via pytest
 marshmallow==3.26.1
     # via
-    #   -r requirements/pkg.in
+    #   -r pkg.in
     #   sweetrpg-model-core
 mongoengine==0.29.1
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 packaging==25.0
     # via
     #   marshmallow
@@ -58,7 +58,7 @@ pygments==2.19.2
     # via pytest
 pymongo[srv]==3.13.0
     # via
-    #   -r requirements/pkg.in
+    #   -r pkg.in
     #   mongoengine
     #   pymongo
     #   sweetrpg-model-core
@@ -66,24 +66,24 @@ pyproject-api==1.10.0
     # via tox
 pytest==8.4.2
     # via
-    #   -r requirements/tests.in
+    #   -r tests.in
     #   pytest-cov
     #   pytest-env
     #   pytest-ordering
 pytest-cov==7.0.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-env==1.2.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 pytest-ordering==0.6
-    # via -r requirements/tests.in
+    # via -r tests.in
 python-dotenv==1.2.1
-    # via -r requirements/tests.in
+    # via -r tests.in
 sweetrpg-common==0.0.1
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 sweetrpg-model-core==0.0.155
-    # via -r requirements/pkg.in
+    # via -r pkg.in
 tox==4.32.0
-    # via -r requirements/tests.in
+    # via -r tests.in
 virtualenv==20.35.4
     # via tox
 
