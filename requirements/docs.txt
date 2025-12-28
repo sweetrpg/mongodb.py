@@ -35,7 +35,7 @@ markdown-it-py==4.0.0
     # via rich
 markupsafe==3.0.3
     # via jinja2
-marshmallow==3.26.1
+marshmallow==3.26.2
     # via
     #   -r requirements/pkg.in
     #   sweetrpg-model-core
@@ -113,7 +113,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
-typer==0.20.1
+typer==0.21.0
     # via rstcheck
 typing-extensions==4.15.0
     # via
