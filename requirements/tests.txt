@@ -39,7 +39,7 @@ marshmallow==3.26.2
     #   sweetrpg-model-core
 mongoengine==0.29.1
     # via -r requirements/pkg.in
-packaging==25.0
+packaging==26.0
     # via
     #   marshmallow
     #   pyproject-api
