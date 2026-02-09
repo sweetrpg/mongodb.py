@@ -1,5 +1,5 @@
 -r pkg.in
-asgiref~=3.0
+asgiref~=3.11
 blinker~=1.0
 coverage-badge~=1.0
 dnspython~=2.0
