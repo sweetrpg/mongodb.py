@@ -6,9 +6,11 @@
 #
 alabaster==1.0.0
     # via sphinx
+annotated-doc==0.0.4
+    # via typer
 annotated-types==0.7.0
     # via pydantic
-babel==2.17.0
+babel==2.18.0
     # via sphinx
 certifi==2026.1.4
     # via requests
@@ -67,7 +69,7 @@ pymongo[srv]==3.13.0
     #   sweetrpg-model-core
 requests==2.32.5
     # via sphinx
-rich==14.3.1
+rich==14.3.2
     # via typer
 roman-numerals==4.1.0
     # via roman-numerals-py
@@ -113,13 +115,12 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
-typer==0.21.1
+typer==0.23.1
     # via rstcheck
 typing-extensions==4.15.0
     # via
     #   pydantic
     #   pydantic-core
-    #   typer
     #   typing-inspection
 typing-inspection==0.4.2
     # via pydantic
