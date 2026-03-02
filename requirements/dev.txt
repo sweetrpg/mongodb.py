@@ -142,7 +142,7 @@ pytest-ordering==0.6
     # via -r requirements/tests.in
 python-discovery==1.1.0
     # via virtualenv
-python-dotenv==1.2.1
+python-dotenv==1.2.2
     # via -r requirements/tests.in
 pytokens==0.4.1
     # via black
