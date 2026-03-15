@@ -43,7 +43,7 @@ marshmallow==3.26.2
     #   sweetrpg-model-core
 mdurl==0.1.2
     # via markdown-it-py
-mongoengine==0.29.1
+mongoengine==0.29.3
     # via -r requirements/pkg.in
 packaging==26.0
     # via
