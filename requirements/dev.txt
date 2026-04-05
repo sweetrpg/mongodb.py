@@ -24,9 +24,9 @@ cachetools==7.0.5
     # via tox
 certifi==2026.2.25
     # via requests
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via
     #   black
     #   pip-tools
@@ -110,7 +110,7 @@ pydantic==2.12.5
     # via rstcheck-core
 pydantic-core==2.41.5
     # via pydantic
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   pytest
     #   rich
@@ -148,7 +148,7 @@ python-dotenv==1.2.2
     # via -r requirements/tests.in
 pytokens==0.4.1
     # via black
-requests==2.33.0
+requests==2.33.1
     # via sphinx
 rich==14.3.3
     # via typer
@@ -198,7 +198,7 @@ sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
 tomli-w==1.2.0
     # via tox
-tox==4.51.0
+tox==4.52.0
     # via -r requirements/tests.in
 typer==0.24.1
     # via rstcheck

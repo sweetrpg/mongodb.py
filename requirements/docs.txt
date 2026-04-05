@@ -14,9 +14,9 @@ babel==2.18.0
     # via sphinx
 certifi==2026.2.25
     # via requests
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via typer
 dnspython==2.8.0
     # via
@@ -56,7 +56,7 @@ pydantic==2.12.5
     # via rstcheck-core
 pydantic-core==2.41.5
     # via pydantic
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   rich
     #   sphinx
@@ -67,7 +67,7 @@ pymongo[srv]==3.13.0
     #   mongoengine
     #   pymongo
     #   sweetrpg-model-core
-requests==2.33.0
+requests==2.33.1
     # via sphinx
 rich==14.3.3
     # via typer
