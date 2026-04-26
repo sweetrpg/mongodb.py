@@ -8,7 +8,7 @@ asgiref==3.11.1
     # via -r requirements/tests.in
 blinker==1.9.0
     # via -r requirements/tests.in
-cachetools==7.0.5
+cachetools==7.0.6
     # via tox
 colorama==0.4.6
     # via tox
@@ -25,7 +25,7 @@ dnspython==2.8.0
     #   -r requirements/pkg.in
     #   -r requirements/tests.in
     #   pymongo
-filelock==3.28.0
+filelock==3.29.0
     # via
     #   python-discovery
     #   tox
@@ -38,7 +38,7 @@ marshmallow==3.26.2
     #   sweetrpg-model-core
 mongoengine==0.29.3
     # via -r requirements/pkg.in
-packaging==26.1
+packaging==26.2
     # via
     #   marshmallow
     #   pyproject-api

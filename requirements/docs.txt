@@ -12,11 +12,11 @@ annotated-types==0.7.0
     # via pydantic
 babel==2.18.0
     # via sphinx
-certifi==2026.2.25
+certifi==2026.4.22
     # via requests
 charset-normalizer==3.4.7
     # via requests
-click==8.3.2
+click==8.3.3
     # via typer
 dnspython==2.8.0
     # via
@@ -27,7 +27,7 @@ docutils==0.21.2
     #   rstcheck-core
     #   sphinx
     #   sphinx-tabs
-idna==3.11
+idna==3.13
     # via requests
 imagesize==2.0.0
     # via sphinx
@@ -45,16 +45,16 @@ mdurl==0.1.2
     # via markdown-it-py
 mongoengine==0.29.3
     # via -r requirements/pkg.in
-packaging==26.1
+packaging==26.2
     # via
     #   marshmallow
     #   pallets-sphinx-themes
     #   sphinx
 pallets-sphinx-themes==2.5.0
     # via -r requirements/docs.in
-pydantic==2.13.2
+pydantic==2.13.3
     # via rstcheck-core
-pydantic-core==2.46.2
+pydantic-core==2.46.3
     # via pydantic
 pygments==2.20.0
     # via
@@ -115,7 +115,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
-typer==0.24.1
+typer==0.24.2
     # via rstcheck
 typing-extensions==4.15.0
     # via
