@@ -12,7 +12,7 @@ cachetools==7.1.4
     # via tox
 colorama==0.4.6
     # via tox
-coverage[toml]==7.14.1
+coverage[toml]==7.14.2
     # via
     #   coverage-badge
     #   pytest-cov
@@ -64,7 +64,7 @@ pymongo[srv]==3.13.0
     #   sweetrpg-model-core
 pyproject-api==1.10.1
     # via tox
-pytest==9.1.0
+pytest==9.1.1
     # via
     #   -r requirements/tests.in
     #   pytest-cov
@@ -92,7 +92,7 @@ tomli-w==1.2.0
     # via tox
 tox==4.55.1
     # via -r requirements/tests.in
-virtualenv==21.5.0
+virtualenv==21.5.1
     # via tox
 
 # The following packages are considered to be unsafe in a requirements file:
