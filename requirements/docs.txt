@@ -111,7 +111,7 @@ sweetrpg-common==0.0.1
     # via -r requirements/pkg.in
 sweetrpg-model-core==0.0.155
     # via -r requirements/pkg.in
-typer==0.26.8
+typer==0.27.0
     # via rstcheck
 typing-extensions==4.16.0
     # via
