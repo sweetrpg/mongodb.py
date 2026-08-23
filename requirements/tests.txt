@@ -53,7 +53,7 @@ pluggy==1.6.0
     #   pytest
     #   pytest-cov
     #   tox
-pygments==2.20.0
+pygments==2.21.0
     # via pytest
 pymongo[srv]==3.13.0
     # via
@@ -79,7 +79,7 @@ python-discovery==1.5.2
     # via
     #   tox
     #   virtualenv
-python-dotenv==1.2.2
+python-dotenv==1.2.3
     # via
     #   -r requirements/tests.in
     #   pytest-env
