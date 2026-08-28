@@ -228,7 +228,7 @@ class MongoDataRepository(object):
             return True
         else:
             logging.info("Marking %s record %s deleted...", self.model_class.__name__, id_value)
-            now = datetime.datetime.utcnow()
+            now = datetime.datetime.now(datetime.timezone.utc)
             doc.deleted_at = now
             updated_doc = doc.save()
             logging.debug("updated_doc: %s", updated_doc)

@@ -66,6 +66,7 @@ packages = ["src/sweetrpg_db"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+filterwarnings = ["error"]
 
 [tool.coverage.run]
 branch = true
