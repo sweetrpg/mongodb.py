@@ -29,11 +29,13 @@ class TestModel(BaseModel):
 class TestSchema(BaseSchema):
     """ """
 
-    pass
+    __test__ = False
 
 
 class TestDocument(Document):
     """ """
+
+    __test__ = False
 
     meta = {
         "collection": "exams",
@@ -52,7 +54,7 @@ class TestDocument(Document):
 @pytest.fixture(scope="session", autouse=True)
 def setup_repo(request):
     # db = MongoClient(host=MONGODB_URI)
-    connect(host=MONGODB_URI, alias="unit-tests")
+    connect(host=MONGODB_URI, alias="unit-tests", uuidRepresentation="standard")
     repo = MongoDataRepository(model=TestModel, document=TestDocument, collection="exams")
     request.session.repo = repo
     request.session.object_ids = []
