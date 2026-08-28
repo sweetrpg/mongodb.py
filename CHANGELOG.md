@@ -1,5 +1,20 @@
 # Changelog
 
+## [Unreleased]
+
+- Migrated packaging to uv (pyproject.toml + uv.lock), replacing setup.py/setup.cfg/tox.ini.
+- Fixed PyMongo 3.x/Python 3.14 incompatibility (`from collections import MutableMapping`,
+  removed in 3.10+) - bumped to PyMongo 4.10.1+.
+- Bumped requires-python to >=3.14 (platform floor) from >=3.12.
+- Bumped the version file to 0.0.146 - this repo's own tags stop at v0.0.20, but the published
+  PyPI package had already reached 0.0.145 before this repo's history was reset at some point.
+- Added a `mongodb` service container to CI/PR workflows - tests require a live `MONGODB_URI`
+  and previously had no service to provide one, failing on every run.
+- Replaced two uncoordinated ad hoc release mechanisms (a `relekang/python-semantic-release`
+  auto-tag-on-push step, and a manual "Bump version" workflow that only tagged refs without
+  touching `__init__.py`) with the standard prepare-release/release/tag-release workflow family.
+- Repo scaffolding brought up to platform baseline (community docs, AGENTS.md).
+
 <!--next-version-placeholder-->
 
 ## v0.0.20 (2025-03-23)
