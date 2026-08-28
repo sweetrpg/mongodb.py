@@ -1,3 +1,12 @@
+## [0.0.21] - 2026-08-28
+
+### 🐛 Bug Fixes
+
+- *(deps)* Bump PyMongo to 4.10.1 for Python 3.14 compatibility
+
+### 🚜 Refactor
+
+- Migrate to uv packaging, add mongo service to CI, standardize release process
 # Changelog
 
 ## [Unreleased]
