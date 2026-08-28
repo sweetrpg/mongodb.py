@@ -1,3 +1,15 @@
+## [0.0.21] - 2026-08-28
+
+### 🐛 Bug Fixes
+
+- *(deps)* Bump PyMongo to 4.10.1 for Python 3.14 compatibility
+- Sync __init__.py version to 0.0.146, matching pyproject.toml
+- Unbreak tests under strict pytest config from #53
+- Restore strict pytest warnings, fix the actual root causes
+
+### 🚜 Refactor
+
+- Migrate to uv packaging, add mongo service to CI, standardize release process
 # Changelog
 
 ## [Unreleased]
