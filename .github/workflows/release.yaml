@@ -22,5 +22,12 @@ jobs:
       # This repo manages dependencies with uv (pyproject.toml + uv.lock) - the reusable
       # workflow's pip-requirements defaults don't apply (there is no requirements/tests.txt).
       install-command: uv sync --group test
-      test-command: uv run pytest tests
+      # The reusable workflow only provisions a redis service container, not mongo - this repo's
+      # tests need a live MONGODB_URI. Started inline since test-command is an arbitrary shell
+      # command and the reusable workflow has no per-caller service-container hook.
+      test-command: >-
+        docker run -d -p 27017:27017 --name release-mongo mongo:7.0 &&
+        sleep 3 &&
+        MONGODB_URI=mongodb://localhost:27017/release-tests uv run pytest tests
+      publish-to-pypi: true
     secrets: inherit
