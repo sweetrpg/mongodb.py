@@ -2,10 +2,10 @@
 
 ## Supported Versions
 
-| Version | Supported          |
-| ------- | ------------------ |
-| > 0.0.1 | :white_check_mark: |
+Only the most recent release is supported with security updates.
 
 ## Reporting a Vulnerability
 
-File an issue.
+Please report security vulnerabilities privately via
+[GitHub Security Advisories](https://github.com/sweetrpg/mongodb.py/security/advisories/new)
+rather than opening a public issue. You should expect an initial response within a few days.
